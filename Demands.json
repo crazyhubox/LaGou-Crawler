@@ -1,0 +1,18 @@
+{
+    "demands":[
+        {"position":"go","city":"成都"},
+        {"position":"python","city":"成都"},
+        {"position":"c++","city":"成都"},
+        {"position":"java","city":"成都"},
+        {"position":"会计","city":"成都"},
+        {"position":"审计","city":"成都"},
+        {"position":"助理","city":"成都"},
+        {"position":"c语言","city":"成都"},
+        {"position":"前端","city":"成都"},
+        {"position":"后端","city":"成都"}
+        
+    ],
+    "demands_size":8
+}
+
+
