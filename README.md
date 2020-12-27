@@ -9,3 +9,11 @@
 1. asyncio
 2. aiohttp
 3. concurrent.futures.ThreadPoolExecutor
+4. colorama
+5. docker + splash(非必须，使用同步就不需要)
+6. selenium (同步爬取所使用)
+
+## 入口
+asyncSplashParse.py
+syncParse_csv.py
+
