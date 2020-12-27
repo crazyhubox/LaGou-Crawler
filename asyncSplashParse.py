@@ -15,7 +15,7 @@ def task(position:str,city:str)->None:
 
 
 def main():
-    path = '/Users/crazyhubox/Desktop/Recruitment/Demands.json'
+    path = './Demands.json'
     demands = Demands(path=path)
     need_size = demands['demands_size']
     ds = demands['demands']

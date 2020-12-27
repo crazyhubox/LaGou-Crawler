@@ -15,5 +15,19 @@
 
 ## 入口
 asyncSplashParse.py
+
 syncParse_csv.py
+
+## 使用
+直接设置Demands.json配置需要的职位，结果会保存入results文件夹
+
+![iamge](static/Snipaste_2020-12-27_10-10-29.png)
+
+
+
+然后运行你需要的爬取方式
+
+```shell
+python3 -u asyncSplashParse.py
+```
 

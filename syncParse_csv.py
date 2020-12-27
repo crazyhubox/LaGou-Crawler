@@ -52,7 +52,7 @@ def task(position_: str, city_: str) -> None:
 
 @timer
 def main():
-    demands = Demands('/Users/crazyhubox/Desktop/Recruitment/Demands.json')
+    demands = Demands('./Demands.json')
     need_size = demands['demands_size']
     ds = demands['demands']
     print(clo.green('需求列表读取成功'))

@@ -30,6 +30,9 @@ class Demands(J2Dict):
 
 
 if __name__ == "__main__":
-    citys = J2Dict()
-    print(citys['贵阳'])
+    # citys = J2Dict()
+    # print(citys['贵阳'])
+    path = './Demands.json'
+    demands = Demands(path=path)
     
+    print(demands['demands'])
