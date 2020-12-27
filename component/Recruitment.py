@@ -68,7 +68,7 @@ class Recruitment:
     def get_lastPage(self) -> Redis:
         """从redis数据中读取上次爬取到的页数,根据kw和cty生成指纹"""
         id_ = self.sha_id
-        redis = Redis(host='127.0.0.1', password='130298', db=1)
+        redis = Redis(host='127.0.0.1', db=1)
         if not redis.get(id_):
             redis.set(id_, 1)
             start_page = 1
@@ -124,7 +124,7 @@ class Recruitment:
 
 
 if __name__ == "__main__":
-    # Recruitment('软件工程师','上海')
+    Recruitment('软件工程师','上海')
     test_str = '上海'
     test_str1 = 'python'
 
